@@ -1,3 +1,6 @@
+![20240718_02h15m23s_grim](https://github.com/user-attachments/assets/87f04c69-f0c1-445e-b2ef-f887841bb506)
+![20240718_02h13m29s_grim](https://github.com/user-attachments/assets/410bb60c-98d9-4d21-9c42-e1d7addc0d37)
+
 # Installation 
 ### Fedora
 ```
