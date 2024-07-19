@@ -9,6 +9,9 @@ Inspired by : <a href="https://github.com/m4xshen/dotfiles ">m4xshen</a>
 sudo dnf install hyprland rofi waybar neofetch hyprpaper kitty brightnessctl wireplumber grim slurp
 ```
 
+### Additional steps
+ move the file FiraCoseNerdFont-Regular.ttf to /home/.local/share/fonts
+
 ## Packages info
 hyprland
  
