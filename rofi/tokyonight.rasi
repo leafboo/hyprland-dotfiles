@@ -6,15 +6,15 @@
 
 // define colors etc.
 * {
-    bg: #24283b;
+    bg: #11111b;
     hv: #9274ca; 
     primary: #C5C8C6; 
     ug: #0B2447;
-    font: "Monospace 11";
+    font: "FiraCode Nerd Font Medium 12";
     background-color: @bg;
     //dark: @bg;
     border: 0px;
-    kl: #7aa2f7;
+    kl: #b4befe;
     black: #000000;
 
     transparent: rgba(46,52,64,0);
@@ -22,7 +22,7 @@
 
 // defines different aspects of the window
 window {
-    width: 700;
+    width: 480;
     /*since line wont work with height, i comment it out 
     if you rather control the size via height
     just comment it out */
@@ -33,8 +33,6 @@ window {
     anchor: center;
     transparency: "screenshot";
     border-color: @transparent;   
-    border: 0px;
-    border-radius: 6px;
     spacing: 0;
     children: [ mainbox ];
 }
@@ -47,15 +45,10 @@ mainbox {
 inputbar {
     color: @kl;
     padding: 11px;
-    border: 3px 3px 2px 3px;
-    border-color: @primary;
-    border-radius: 6px 6px 0px 0px;
 }
 
 message {
     padding: 0;
-    border-color: @primary;
-    border: 0px 1px 1px 1px;
 }
 
 entry, prompt, case-indicator {
@@ -75,11 +68,10 @@ listview {
     layout: vertical;
     //spacing: 5px;
     padding: 8px;
+    lines: 9;
+    columns: 1;
     lines: 12;
     columns: 1;
-    border: 0px 3px 3px 3px; 
-    border-radius: 0px 0px 6px 6px;
-    border-color: @primary;
     dynamic: false;
 }
 
@@ -110,6 +102,10 @@ element-text, element-icon {
     text-color: inherit;
 }
 
+element-icon {
+    size: 22px;
+}
+
 element normal urgent {
     background-color: @primary;
 }
@@ -123,15 +119,13 @@ button {
     padding: 6px;
     color: @primary;
     horizonatal-align: 0.5;
-
-    border: 2px 0px 2px 2px;
-    border-radius: 4px 0px 0px 4px;
-    border-color: @primary;
 }
 
 button selected normal {
-    border: 2px 0px 2px 2px;
-    border-color: @primary;
+
+}
+
+button selected normal {
 }
 
 scrollbar {
