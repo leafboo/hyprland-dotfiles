@@ -8,7 +8,7 @@
     "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery"],
     
     "custom/arch": {
-      "format": "",
+      "format": "",
       "tooltip": false,
       "on-click": "sh $HOME/.config/rofi/bin/powermenu"
     },

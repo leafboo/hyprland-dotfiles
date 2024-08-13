@@ -1,9 +1,9 @@
 * {	
   border: none;
   font-family: 'FiraCode Nerd Font';
-  font-size: 12px;
+  font-size: 17px;
   font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-  min-height: 12px;
+  min-height: 17px;
 }
 
 window#waybar {
@@ -18,7 +18,7 @@ window#waybar {
   margin-right: 15px;
   padding-top: 1px;
   padding-left: 4px;
-  padding-right: 4px;
+  padding-right: 6px;
 }
 
 #custom-arch {
@@ -39,7 +39,7 @@ window#waybar {
   background-color: #11111b;
   color: #cdd6f4;
   margin-top: 7px;
-  padding: 9px;
+  padding: 11px;
   margin-right: 15px;
 }
 
